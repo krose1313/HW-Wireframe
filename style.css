@@ -1,0 +1,163 @@
+/* Layout */
+
+body {
+    font:normal 12px/1.6em Arial, Helvetica, sans-serif;
+	color:black;
+	margin:0;
+	padding:0;
+	background:#FFFFFF;
+}
+
+p {
+	margin:0;
+	padding:0;
+}
+
+#wrapper {
+	margin:0 auto;
+	width:632px;
+	border-left:1px solid #f0e9eb;
+	border-right:1px solid #f0e9eb;
+}
+
+#header {
+	margin:0 1px;
+}
+
+#bg {
+	height:36px;
+	background:url('http://img840.imageshack.us/img840/9886/87926428.gif') repeat-x;
+}
+
+#main-content {
+	margin:0 auto;
+}
+
+#main-image {
+	text-align:center;
+}
+
+#left-column {
+	width:300px;
+	padding:0 30px 30px;
+	float:left;
+}
+
+#right-column {
+	width:270px;
+	float:right;
+}
+
+.sidebar {
+	width:218px;
+	margin:0 auto;
+	padding:10px 25px;
+	background:url('http://img404.imageshack.us/img404/3092/shadowh.jpg') no-repeat top;
+}
+
+#footer {
+	background:#f7f7f7;
+	border-top:1px solid #f0e9eb;
+	padding:10px 15px;
+	clear:both;
+}
+
+/* Global Styling */
+
+a:visited, a:link {
+	color:blue;
+	text-decoration:underline;
+	background:none;
+}
+
+a:hover {
+	color:grey;
+	text-decoration:none;
+	background:none;
+}
+
+h1 {
+	color:black;
+	margin:0 0 10px;
+	padding-bottom:10px;
+	font:normal 17px Georgia, serif;
+	border-bottom:1px solid #efece7;
+}
+
+h2 {
+	color:black;
+	margin:20px 0 10px;
+	padding-bottom:10px;
+	font:normal 17px Georgia, serif;
+	border-bottom:1px solid #efece7;
+}
+
+h3 {
+	color:black;
+	margin:10px 0;
+	padding-bottom:10px;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	border-bottom:1px solid #efece7;
+}
+
+ul {
+	padding:0;
+	margin:0 0 0 17px;
+	list-style:square url('http://img525.imageshack.us/img525/1890/bulletr.gif');
+}
+
+.box {
+	background:#f7f7f7;
+	border:1px solid #f0e9eb;
+	padding:15px;
+}
+
+#nav1 {
+	background:#06a;
+	padding:10px 20px;
+	text-align:left;
+	color:black;
+}
+
+#nav1 a {
+	margin: 0 10px;
+}
+
+#nav1 a:visited, #nav a:link {
+	text-decoration:none;
+	color:blue;
+}
+
+#nav1 a:hover {
+	text-decoration:underline;
+	color:grey;
+}
+#nav2 {
+	background:#06a;
+	padding:10px 20px;
+	text-align:right;
+	color:black;
+}
+
+#nav2 a {
+	margin: 0 10px;
+}
+
+#nav2 a:visited, #nav a:link {
+	text-decoration:none;
+	color:blue;
+}
+
+#nav2 a:hover {
+	text-decoration:underline;
+	color:grey;
+}
+
+#logo {
+	margin-bottom:20px;
+	font:normal 18px Georgia, serif;
+	color:#fa7393;
+
+
+
+
